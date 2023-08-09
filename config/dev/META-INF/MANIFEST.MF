@@ -1,0 +1,104 @@
+Manifest-Version: 1.0
+Class-Path: bcprov-jdk15on-1.68.jar javassist-3.24.0-GA.jar netty-tcnati
+ ve-boringssl-static-2.0.48.Final.jar javax.annotation-api-1.2.jar jerse
+ y-client-2.25.jar newrelic-api-3.10.0.jar spring-boot-starter-websocket
+ -2.0.2.RELEASE.jar LatencyUtils-2.0.3.jar jackson-databind-2.13.1.jar s
+ pring-messaging-5.0.6.RELEASE.jar config-1.3.4.jar liquibase-slf4j-2.0.
+ 0.jar HdrHistogram-2.1.9.jar tomcat-embed-core-8.5.31.jar jackson-datat
+ ype-jsr310-2.9.5.jar jcabi-log-0.14.jar catalyst-transport-1.1.2.jar ne
+ tty-handler-4.1.73.Final.jar failureaccess-1.0.1.jar antlr-2.7.7.jar je
+ tty-servlet-9.4.19.v20190610.jar disruptor-3.4.2.jar jackson-module-par
+ ameter-names-2.9.5.jar catalyst-common-1.1.2.jar wildfly-common-1.5.1.F
+ inal.jar corda-serialization-4.9.jar jolokia-jvm-1.6.0-agent.jar mockit
+ o-core-2.28.2.jar spring-webmvc-5.0.6.RELEASE.jar metrics-core-4.1.0.ja
+ r netty-codec-http-4.1.73.Final.jar jolokia-core-1.6.1.jar junit-platfo
+ rm-launcher-1.5.0-RC1.jar hamcrest-library-2.1.jar hibernate-core-5.4.3
+ .Final.jar netty-tcnative-classes-2.0.48.Final.jar jaxb-runtime-2.3.1.j
+ ar artemis-jdbc-store-2.19.1.jar netty-buffer-4.1.73.Final.jar shiro-co
+ re-1.4.1.jar netty-resolver-4.1.73.Final.jar h2-1.4.199.jar kotlin-test
+ -common-1.2.71.jar junit-jupiter-api-5.5.0-RC1.jar hamcrest-2.1.jar log
+ 4j-api-2.17.1.jar error_prone_annotations-2.3.4.jar validation-api-1.1.
+ 0.Final.jar spring-beans-5.0.6.RELEASE.jar spring-web-5.0.6.RELEASE.jar
+  corda-confidential-identities-4.9.jar netty-transport-classes-kqueue-4
+ .1.73.Final.jar netty-codec-4.1.73.Final.jar corda-finance-contracts-4.
+ 9.jar jaxb-api-2.3.1.jar corda-rpc-4.9.jar corda-common-validation-4.9.
+ jar jcl-over-slf4j-1.7.30.jar rxjava-1.3.8.jar netty-common-4.1.73.Fina
+ l.jar snakeyaml-1.19.jar copycat-protocol-1.2.3.jar commons-text-1.8.ja
+ r corda-node-driver-4.9.jar objenesis-2.6.jar jackson-module-kotlin-2.9
+ .7.jar jcabi-manifests-1.1.jar picocli-3.9.6.jar log4j-slf4j-impl-2.17.
+ 1.jar jboss-logging-3.4.2.Final.jar validation-api-2.0.1.Final.jar Hika
+ riCP-3.3.1.jar commons-configuration2-2.7.jar commons-lang3-3.9.jar cor
+ da-finance-workflows-4.9.jar log4j-core-2.17.1.jar jackson-datatype-jsr
+ 310-2.13.1.jar netty-transport-classes-epoll-4.1.73.Final.jar spring-we
+ bsocket-5.0.6.RELEASE.jar j2objc-annotations-1.3.jar spring-jcl-5.0.6.R
+ ELEASE.jar junit-platform-engine-1.5.0-RC1.jar hamkrest-1.7.0.0.jar jav
+ ax.ws.rs-api-2.0.1.jar opentest4j-1.2.0.jar listenablefuture-9999.0-emp
+ ty-to-avoid-conflict-with-guava.jar hk2-locator-2.5.0-b30.jar tokens-wo
+ rkflows-1.2.jar commons-beanutils-1.9.4.jar snakeyaml-1.28.jar annotati
+ ons-13.0.jar shiro-config-ogdl-1.4.1.jar corda-4.9.jar corda-tools-cliu
+ tils-4.9.jar snakeyaml-1.18.jar jetty-io-9.4.19.v20190610.jar shiro-cac
+ he-1.4.1.jar metrics-core-3.2.3.jar kotlin-stdlib-1.2.71.jar jackson-da
+ tatype-jdk8-2.9.5.jar corda-mock-4.9.jar shiro-lang-1.4.1.jar netty-tra
+ nsport-native-kqueue-4.1.73.Final-osx-x86_64.jar jackson-core-2.13.1.ja
+ r commons-pool2-2.7.0.jar osgi-resource-locator-1.0.1.jar copycat-clien
+ t-1.2.3.jar jersey-common-2.25.jar javax.inject-2.5.0-b30.jar catalyst-
+ concurrent-1.1.2.jar kryo-4.0.2.jar shiro-crypto-cipher-1.4.1.jar jansi
+ -1.18.jar netty-handler-proxy-4.1.73.Final.jar johnzon-core-0.9.5.jar g
+ uava-20.0.jar netty-tcnative-classes-2.0.46.Final.jar classgraph-4.8.13
+ 5.jar commons-collections-3.2.2.jar hibernate-validator-6.0.9.Final.jar
+  shiro-event-1.4.1.jar kotlin-stdlib-jdk7-1.2.71.jar junit-4.12.jar obj
+ enesis-2.5.1.jar spring-core-5.0.6.RELEASE.jar byte-buddy-1.9.10.jar ok
+ io-1.17.2.jar dom4j-2.1.1.jar hibernate-commons-annotations-5.1.0.Final
+ .jar classmate-1.3.4.jar kotlin-test-1.2.71.jar jetty-server-9.4.19.v20
+ 190610.jar junit-vintage-engine-5.5.0-RC1.jar gradle-tooling-api-5.6.4.
+ jar corda-node-djvm-4.9.jar hibernate-java8-5.4.3.Final.jar shiro-crypt
+ o-core-1.4.1.jar spring-boot-starter-json-2.0.2.RELEASE.jar micrometer-
+ core-1.6.3.jar asm-5.0.4.jar reflectasm-1.11.3.jar kotlin-reflect-1.2.7
+ 1.jar jandex-2.0.5.Final.jar library-master-v1.1-beta-g6215ec8-87.jar b
+ cpkix-jdk15on-1.68.jar junit-jupiter-engine-5.5.0-RC1.jar corda-test-ut
+ ils-4.9.jar jackson-dataformat-yaml-2.13.1.jar tomcat-annotations-api-8
+ .5.31.jar jsr305-3.0.2.jar corda-common-configuration-parsing-4.9.jar j
+ avax.servlet-api-4.0.1.jar json-simple-1.1.1.jar jersey-container-servl
+ et-core-2.25.jar artemis-quorum-api-2.19.1.jar netty-transport-4.1.73.F
+ inal.jar jboss-transaction-api_1.2_spec-1.1.1.Final.jar corda-serializa
+ tion-djvm-4.9.jar artemis-selector-2.19.1.jar netty-common-4.1.68.Final
+ .jar commons-io-2.10.0.jar javax.annotation-api-1.3.2.jar tokens-money-
+ 1.1.jar junit-platform-commons-1.5.0-RC1.jar corda-djvm-1.1.1.jar corda
+ -node-api-4.9.jar jetty-continuation-9.2.14.v20151106.jar slf4j-api-1.7
+ .30.jar spring-expression-5.0.6.RELEASE.jar kotlin-stdlib-common-1.2.71
+ .jar corda-core-test-utils-4.9.jar FastInfoset-1.2.15.jar guava-30.1-jr
+ e.jar hk2-api-2.5.0-b30.jar commons-collections4-4.3.jar stax-ex-1.8.ja
+ r jersey-media-jaxb-2.25.jar byte-buddy-agent-1.9.10.jar tomcat-embed-e
+ l-8.5.31.jar javax.activation-api-1.2.0.jar hk2-utils-2.5.0-b30.jar spr
+ ing-boot-starter-tomcat-2.0.2.RELEASE.jar javax.inject-1.jar jboss-logg
+ ing-3.3.2.Final.jar istack-commons-runtime-3.0.7.jar checker-qual-3.5.0
+ .jar netty-transport-native-unix-common-4.1.73.Final.jar spring-boot-st
+ arter-web-2.0.2.RELEASE.jar spring-boot-2.0.2.RELEASE.jar corda-common-
+ logging-4.9.jar metrics-jmx-4.1.0.jar aopalliance-repackaged-2.5.0-b30.
+ jar activemq-artemis-native-1.0.2.jar jetty-util-9.4.19.v20190610.jar t
+ xw2-2.3.1.jar corda-node-4.9.jar minlog-1.3.0.jar spring-aop-5.0.6.RELE
+ ASE.jar shiro-crypto-hash-1.4.1.jar quasar-core-0.7.14_r3.jar sshd-comm
+ on-2.3.0.jar jetty-security-9.4.19.v20190610.jar catalyst-serializer-1.
+ 1.2.jar jetty-webapp-9.4.19.v20190610.jar jetty-http-9.4.19.v20190610.j
+ ar corda-deserializers-djvm-4.9.jar jolokia-jvm-1.6.1-agent.jar javax.p
+ ersistence-api-2.2.jar corda-jackson-4.9.jar asm-7.1.jar jetty-xml-9.4.
+ 19.v20190610.jar commons-codec-1.13.jar jersey-guava-2.25.jar jersey-se
+ rver-2.25.jar jboss-logmanager-2.1.10.Final.jar netty-codec-socks-4.1.7
+ 3.Final.jar guava-testlib-28.0-jre.jar mockito-kotlin-1.6.0.jar eddsa-0
+ .3.0.jar caffeine-2.7.0.jar netty-transport-native-epoll-4.1.73.Final-l
+ inux-x86_64.jar kryo-serializers-0.43.jar kotlin-stdlib-jdk8-1.2.71.jar
+  jakarta.json-api-1.1.6.jar spring-context-5.0.6.RELEASE.jar catalyst-n
+ etty-1.1.2.jar apiguardian-api-1.1.0.jar log4j-web-2.17.1.jar artemis-a
+ mqp-protocol-2.19.1.jar copycat-server-1.2.3.jar okhttp-3.14.2.jar jcto
+ ols-core-2.1.2.jar checker-qual-2.6.0.jar tokens-contracts-1.2.jar cata
+ lyst-buffer-1.1.2.jar assertj-core-3.12.2.jar metrics-new-relic-1.1.1.j
+ ar snappy-0.4.jar shiro-config-core-1.4.1.jar artemis-core-client-2.19.
+ 1.jar proton-j-0.33.0.jar liquibase-core-3.6.3.jar jackson-annotations-
+ 2.13.1.jar jersey-container-jetty-http-2.25.jar jimfs-1.1.jar corda-tes
+ t-common-4.9.jar hamcrest-core-2.1.jar tomcat-embed-websocket-8.5.31.ja
+ r spring-boot-starter-2.0.2.RELEASE.jar commons-dbcp2-2.7.0.jar artemis
+ -server-2.19.1.jar jul-to-slf4j-1.7.30.jar HdrHistogram-2.1.12.jar arte
+ mis-journal-2.19.1.jar error_prone_annotations-2.3.3.jar artemis-common
+ s-2.19.1.jar spring-boot-autoconfigure-2.0.2.RELEASE.jar corda-core-4.9
+ .jar
+

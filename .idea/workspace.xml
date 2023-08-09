@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8870ef19-9f75-4713-bebd-0fd7147427e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config/dev/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/contracts/CustomTokenContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/contracts/sendContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/contracts/tokenContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/contracts/workContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/states/CustomTokenState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/states/data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/states/subtask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/states/tokenState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/states/workTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/acceptTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/acceptWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/assignTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/createToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/requestFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/returnResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/returnTaskResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/sendToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/sendWage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/spread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/verify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/de/henku/jpaillier/KeyPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/de/henku/jpaillier/KeyPairBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/de/henku/jpaillier/PrivateKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/de/henku/jpaillier/PublicKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/de/henku/jpaillier/key1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/de/henku/jpaillier/key2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/de/henku/jpaillier/key3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/de/henku/jpaillier/key_platform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/AbstractPaillier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/Paillier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/PaillierThreshold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/PartialDecryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/key/KeyGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/key/PaillierKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/key/PaillierPrivateKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/key/PaillierPrivateThresholdKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/key/PaillierThresholdKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/zkp/DecryptionZKP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/zkp/EncryptionZKP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/zkp/MultiplicationZKP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/main/java/paillierp/zkp/ZKP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows/src/test/java/com/template/MockNetworkTestsTutorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.properties" beforeDir="false" afterPath="$PROJECT_DIR$/constants.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/src/main/java/com/template/contracts/TemplateContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/contracts/acceptContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/src/main/java/com/template/states/TemplateState.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/states/TemplateState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/src/test/java/com/template/contracts/ContractTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/test/java/com/template/contracts/ContractTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/src/integrationTest/java/com/template/DriverBasedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/integrationTest/java/com/template/DriverBasedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/TemplateFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/src/test/java/com/template/FlowTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/test/java/com/template/FlowTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/contracts">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/workflows">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cordapp-template-java" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2HBMQyvt48ubYvVcgcfq4E8BJc8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/范乾程/Downloads/paillier.jar&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8a9a435df28e18aff4fce2604686dbea&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.key_platform">
+    <configuration name="key1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.henku.jpaillier.key1" />
+      <module name="cordapp-template-java.workflows.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.henku.jpaillier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="key2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.henku.jpaillier.key2" />
+      <module name="cordapp-template-java.workflows.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.henku.jpaillier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="key3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.henku.jpaillier.key3" />
+      <module name="cordapp-template-java.workflows.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.henku.jpaillier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="key_platform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.henku.jpaillier.key_platform" />
+      <module name="cordapp-template-java.workflows.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.henku.jpaillier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.template.flows.test2" />
+      <module name="cordapp-template-java.workflows.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.template.flows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Starter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cordapp-template-java.clients.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.template.webserver.Starter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.key_platform" />
+        <item itemvalue="Application.key3" />
+        <item itemvalue="Application.key2" />
+        <item itemvalue="Application.key1" />
+        <item itemvalue="Application.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8870ef19-9f75-4713-bebd-0fd7147427e5" name="Changes" comment="" />
+      <created>1667754013957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667754013957</updated>
+      <workItem from="1667754016232" duration="3010000" />
+      <workItem from="1667758292616" duration="1960000" />
+      <workItem from="1667760280296" duration="3035000" />
+      <workItem from="1667772902518" duration="196000" />
+      <workItem from="1667773107782" duration="7802000" />
+      <workItem from="1668088888785" duration="1869000" />
+      <workItem from="1668090794785" duration="1144000" />
+      <workItem from="1668091958366" duration="20678000" />
+      <workItem from="1668168930613" duration="5575000" />
+      <workItem from="1668176287504" duration="2123000" />
+      <workItem from="1668289828487" duration="3185000" />
+      <workItem from="1668359370011" duration="8601000" />
+      <workItem from="1668368067499" duration="12000" />
+      <workItem from="1668429382218" duration="1840000" />
+      <workItem from="1668439843104" duration="9531000" />
+      <workItem from="1668449907433" duration="205000" />
+      <workItem from="1668521016273" duration="811000" />
+      <workItem from="1668521845047" duration="861000" />
+      <workItem from="1668522728449" duration="361000" />
+      <workItem from="1668523106444" duration="683000" />
+      <workItem from="1668523807212" duration="147000" />
+      <workItem from="1668523974678" duration="1276000" />
+      <workItem from="1668525284140" duration="2163000" />
+      <workItem from="1668527972252" duration="5000" />
+      <workItem from="1668528034955" duration="139000" />
+      <workItem from="1668608803534" duration="2253000" />
+      <workItem from="1668611081605" duration="621000" />
+      <workItem from="1668611721982" duration="486000" />
+      <workItem from="1668613530132" duration="706000" />
+      <workItem from="1668874105026" duration="6587000" />
+      <workItem from="1668959200690" duration="4239000" />
+      <workItem from="1668963507714" duration="318000" />
+      <workItem from="1668963938079" duration="3503000" />
+      <workItem from="1669907636445" duration="15926000" />
+      <workItem from="1669994742760" duration="10202000" />
+      <workItem from="1670010052207" duration="87000" />
+      <workItem from="1670151671466" duration="21000" />
+      <workItem from="1670162773523" duration="638000" />
+      <workItem from="1670235973104" duration="2883000" />
+      <workItem from="1670257919964" duration="185000" />
+      <workItem from="1670258557981" duration="171000" />
+      <workItem from="1670283694381" duration="17000" />
+      <workItem from="1670600867167" duration="76000" />
+      <workItem from="1670801535884" duration="79000" />
+      <workItem from="1670801623464" duration="1452000" />
+      <workItem from="1670841693727" duration="1045000" />
+      <workItem from="1670843484183" duration="75000" />
+      <workItem from="1670866696169" duration="66000" />
+      <workItem from="1670889742668" duration="161000" />
+      <workItem from="1673541559858" duration="1798000" />
+      <workItem from="1673543445013" duration="3598000" />
+      <workItem from="1673552197016" duration="1076000" />
+      <workItem from="1673583968027" duration="703000" />
+      <workItem from="1673812577267" duration="3500000" />
+      <workItem from="1673884364299" duration="2140000" />
+      <workItem from="1673886827523" duration="160000" />
+      <workItem from="1673887043278" duration="3000" />
+      <workItem from="1673902683254" duration="944000" />
+      <workItem from="1674076835586" duration="854000" />
+      <workItem from="1674077705988" duration="304000" />
+      <workItem from="1674078298936" duration="180000" />
+      <workItem from="1674078623059" duration="52000" />
+      <workItem from="1674233047559" duration="4206000" />
+      <workItem from="1674237302477" duration="1713000" />
+      <workItem from="1674430902913" duration="35000" />
+      <workItem from="1674930347756" duration="35000" />
+      <workItem from="1675001813114" duration="52000" />
+      <workItem from="1675010270648" duration="104000" />
+      <workItem from="1675102562726" duration="59000" />
+      <workItem from="1675165015819" duration="2123000" />
+      <workItem from="1675169758307" duration="20000" />
+      <workItem from="1675169961378" duration="37000" />
+      <workItem from="1675290005781" duration="1010000" />
+      <workItem from="1675292710619" duration="85000" />
+      <workItem from="1675293223324" duration="1328000" />
+      <workItem from="1675373683586" duration="4877000" />
+      <workItem from="1675540363990" duration="10004000" />
+      <workItem from="1675555948106" duration="131000" />
+      <workItem from="1675692345874" duration="12000" />
+      <workItem from="1675988442885" duration="942000" />
+      <workItem from="1675989566330" duration="746000" />
+      <workItem from="1676042378745" duration="139000" />
+      <workItem from="1676114280316" duration="6796000" />
+      <workItem from="1676125385499" duration="593000" />
+      <workItem from="1676126110597" duration="542000" />
+      <workItem from="1676126758927" duration="35000" />
+      <workItem from="1676230904264" duration="28000" />
+      <workItem from="1676243669945" duration="8000" />
+      <workItem from="1677359987808" duration="165000" />
+      <workItem from="1677379487973" duration="61000" />
+      <workItem from="1677687194496" duration="158000" />
+      <workItem from="1677798119592" duration="687000" />
+      <workItem from="1678287832048" duration="10000" />
+      <workItem from="1678932289566" duration="96000" />
+      <workItem from="1678991777300" duration="37000" />
+      <workItem from="1679015604095" duration="2102000" />
+      <workItem from="1679071500864" duration="7243000" />
+      <workItem from="1679177178639" duration="662000" />
+      <workItem from="1679181490173" duration="1710000" />
+      <workItem from="1679185092670" duration="149000" />
+      <workItem from="1679185427907" duration="6579000" />
+      <workItem from="1679861053731" duration="1245000" />
+      <workItem from="1679863412177" duration="224000" />
+      <workItem from="1679928406729" duration="6779000" />
+      <workItem from="1679953043905" duration="716000" />
+      <workItem from="1680017877222" duration="2435000" />
+      <workItem from="1680100043778" duration="8000" />
+      <workItem from="1680115370469" duration="5000" />
+      <workItem from="1680129685012" duration="17000" />
+      <workItem from="1680129767349" duration="179000" />
+      <workItem from="1680135646238" duration="1121000" />
+      <workItem from="1680198124003" duration="3833000" />
+      <workItem from="1681168121936" duration="932000" />
+      <workItem from="1681259698222" duration="68000" />
+      <workItem from="1681259886802" duration="726000" />
+      <workItem from="1681260880785" duration="1000000" />
+      <workItem from="1682183095911" duration="229000" />
+      <workItem from="1682327073695" duration="610000" />
+      <workItem from="1682730898563" duration="4000" />
+      <workItem from="1682854892034" duration="873000" />
+      <workItem from="1682855778904" duration="12000" />
+      <workItem from="1682855805592" duration="557000" />
+      <workItem from="1682856470965" duration="882000" />
+      <workItem from="1682858443161" duration="1221000" />
+      <workItem from="1682859686715" duration="410000" />
+      <workItem from="1682860213512" duration="940000" />
+      <workItem from="1682861214905" duration="11000" />
+      <workItem from="1682861239135" duration="282000" />
+      <workItem from="1682861544124" duration="466000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
