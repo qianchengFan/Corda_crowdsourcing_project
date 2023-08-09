@@ -1,4 +1,4 @@
-详细说明请看Report
+详细说明请看Report，运行结果在report的appendix里
 
 运行需要将IDE的java运行版本设置在java8
 并且本地的terminal的java版本也需要设置在java8，不然跑不起来
